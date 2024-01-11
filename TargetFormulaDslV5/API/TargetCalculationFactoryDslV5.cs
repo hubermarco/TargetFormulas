@@ -9,6 +9,11 @@ namespace TargetFormulaDslV5
             return TargetFormula.DslV5;
         }
 
+        public ITargetCalculationParameters CreateTargetCalculationParameters()
+        {
+            return new TargetCalculationParametersDslV5();
+        }
+
         public ITargetCalculation Create()
         {
             return new TargetCalculationDslV5();

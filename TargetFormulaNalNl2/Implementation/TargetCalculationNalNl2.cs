@@ -7,9 +7,9 @@ namespace TargetFormulaNalNl2
 {
     internal class TargetCalculationNalNl2 : ITargetCalculation
     {
-        public void Calculate(ITargetCalculationParameters targetCalculationParameters)
+        public IList<FreqCrv> Calculate(ITargetCalculationParameters targetCalculationParameters)
         {
-            
+            return new List<FreqCrv>();
         }
     }
 }

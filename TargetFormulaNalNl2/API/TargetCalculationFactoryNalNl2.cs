@@ -10,6 +10,11 @@ namespace TargetFormulaNalNl2
             return TargetFormula.NalNl2;
         }
 
+        public ITargetCalculationParameters CreateTargetCalculationParameters()
+        {
+            return new TargetCalculationParametersNalNl2();
+        }
+
         public ITargetCalculation Create()
         {
             return new TargetCalculationNalNl2();

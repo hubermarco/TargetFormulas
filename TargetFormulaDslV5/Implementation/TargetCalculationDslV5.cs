@@ -7,9 +7,9 @@ namespace TargetFormulaDslV5
 {
     internal class TargetCalculationDslV5 : ITargetCalculation
     {
-        public void Calculate(ITargetCalculationParameters targetCalculationParameters)
+        public IList<FreqCrv> Calculate(ITargetCalculationParameters targetCalculationParameters)
         {
-
+            return new List<FreqCrv>();
         }
     }
 }
