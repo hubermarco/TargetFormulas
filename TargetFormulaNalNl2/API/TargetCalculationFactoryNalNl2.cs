@@ -3,7 +3,7 @@ using TargetCalculationInterfaces;
 
 namespace TargetFormulaNalNl2
 {
-    internal class TargetCalculationFactoryNalNl2 : ITargetCalculationFactory
+    public class TargetCalculationFactoryNalNl2 : ITargetCalculationFactory
     {
         public TargetFormula GetTargetFormula()
         {
